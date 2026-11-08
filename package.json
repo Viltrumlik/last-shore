@@ -1,0 +1,27 @@
+{
+  "name": "last-shore",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Last Shore (So'nggi qirg'oq / Последний берег) - a 2D pixel-art turn-based survival city-builder about a town on a drying inland sea.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite --port 5180 --strictPort --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 5181 --strictPort --host 127.0.0.1",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "balance": "tsx scripts/balance.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "happy-dom": "^21.0.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "@fontsource/pixelify-sans": "^5.3.0"
+  }
+}
