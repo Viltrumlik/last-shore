@@ -2,6 +2,8 @@
 
 ![TypeScript: strict](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white) ![Vite: 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white) ![Canvas 2D: pixel art](https://img.shields.io/badge/Canvas%202D-pixel%20art-8B5CF6) ![tests: 40](https://img.shields.io/badge/tests-40-2ea44f) ![languages: uz · ru · en](https://img.shields.io/badge/languages-uz%20%C2%B7%20ru%20%C2%B7%20en-orange) ![license: proprietary](https://img.shields.io/badge/license-proprietary-lightgrey)
 
+### ▶ [Play in your browser](https://viltrumlik.github.io/last-shore/): no install, works on desktop and phone
+
 ![Last Shore: the town of Oqtosh on the shore of the Kok Sea, autumn of year 2](docs/screenshots/game.png)
 
 **Last Shore** is a 2D pixel-art, turn-based survival city-builder about Oqtosh, a fishing town on the shore of an inland
@@ -23,9 +25,9 @@ brought back to life. It runs in any modern browser, on desktop and on a phone, 
 
 ## Qisqacha · Кратко
 
-**🇺🇿 O'zbekcha.** Qurib borayotgan dengiz bo'yidagi baliqchilar shaharchasi haqida piksel-art uslubidagi navbatli shahar qurish va omon qolish o'yini. Siz Oqtosh shaharchasining yangi oqsoqolisiz: 10 yil (40 mavsum) ichida paxtani, dalalarni yoki dengizning o'zini tanlaysiz. Qamish va saksovul eking, kanal qazing, Katta to'g'onga tavakkal qiling. 12 xil bino va harakat, 37 voqea kartasi, 7 yakun. Brauzerda, kompyuterda ham, telefonda ham ishlaydi.
+**🇺🇿 O'zbekcha.** [Brauzerda o'ynash](https://viltrumlik.github.io/last-shore/). Qurib borayotgan dengiz bo'yidagi baliqchilar shaharchasi haqida piksel-art uslubidagi navbatli shahar qurish va omon qolish o'yini. Siz Oqtosh shaharchasining yangi oqsoqolisiz: 10 yil (40 mavsum) ichida paxtani, dalalarni yoki dengizning o'zini tanlaysiz. Qamish va saksovul eking, kanal qazing, Katta to'g'onga tavakkal qiling. 12 xil bino va harakat, 37 voqea kartasi, 7 yakun. Brauzerda, kompyuterda ham, telefonda ham ishlaydi.
 
-**🇷🇺 Русский.** Пошаговая пиксельная стратегия о выживании рыбацкого городка на берегу высыхающего моря. Вы — новый старейшина Октоша, и у вас десять лет (40 сезонов), чтобы решить, что спасать: хлопок, поля или само море. Сажайте тростник и саксаул, копайте каналы, рискните построить Большую дамбу. 12 видов построек и действий, 37 карточек событий, 7 концовок. Работает в браузере на компьютере и телефоне.
+**🇷🇺 Русский.** [Играть в браузере](https://viltrumlik.github.io/last-shore/). Пошаговая пиксельная стратегия о выживании рыбацкого городка на берегу высыхающего моря. Вы — новый старейшина Октоша, и у вас десять лет (40 сезонов), чтобы решить, что спасать: хлопок, поля или само море. Сажайте тростник и саксаул, копайте каналы, рискните построить Большую дамбу. 12 видов построек и действий, 37 карточек событий, 7 концовок. Работает в браузере на компьютере и телефоне.
 
 ## Story teaser
 
@@ -69,6 +71,9 @@ endings and the dangers that end the game early.
 - Any modern browser (Chrome, Firefox, Safari, Edge; desktop or mobile).
 
 ## Install and run
+
+The latest `main` is published automatically to <https://viltrumlik.github.io/last-shore/> by
+[the Pages workflow](.github/workflows/pages.yml) (tests, build, deploy). To run it locally:
 
 ```bash
 git clone https://github.com/Viltrumlik/last-shore.git
