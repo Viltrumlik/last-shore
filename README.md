@@ -1,5 +1,9 @@
 # Last Shore — So'nggi qirg'oq — Последний берег
 
+![TypeScript: strict](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white) ![Vite: 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white) ![Canvas 2D: pixel art](https://img.shields.io/badge/Canvas%202D-pixel%20art-8B5CF6) ![tests: 40](https://img.shields.io/badge/tests-40-2ea44f) ![languages: uz · ru · en](https://img.shields.io/badge/languages-uz%20%C2%B7%20ru%20%C2%B7%20en-orange) ![license: proprietary](https://img.shields.io/badge/license-proprietary-lightgrey)
+
+![Last Shore: the town of Oqtosh on the shore of the Kok Sea, autumn of year 2](docs/screenshots/game.png)
+
 **Last Shore** is a 2D pixel-art, turn-based survival city-builder about Oqtosh, a fishing town on the shore of an inland
 sea that is drying up. Every season the water steps back a little further. Upstream, the rivers are being turned into
 cotton fields; in town, the docks run aground, salt dust blows in from the dead seabed and the district official wants
@@ -17,12 +21,20 @@ brought back to life. It runs in any modern browser, on desktop and on a phone, 
 - A tutorial voiced by Ermek-ota and Dilnoza, keyboard shortcuts, optional WebAudio sound effects, and autosave to `localStorage` (the game still runs if storage is blocked).
 - Responsive: on narrow screens the side panels collapse into a bottom sheet with tabs.
 
+## Qisqacha · Кратко
+
+**🇺🇿 O'zbekcha.** Qurib borayotgan dengiz bo'yidagi baliqchilar shaharchasi haqida piksel-art uslubidagi navbatli shahar qurish va omon qolish o'yini. Siz Oqtosh shaharchasining yangi oqsoqolisiz: 10 yil (40 mavsum) ichida paxtani, dalalarni yoki dengizning o'zini tanlaysiz. Qamish va saksovul eking, kanal qazing, Katta to'g'onga tavakkal qiling. 12 xil bino va harakat, 37 voqea kartasi, 7 yakun. Brauzerda, kompyuterda ham, telefonda ham ishlaydi.
+
+**🇷🇺 Русский.** Пошаговая пиксельная стратегия о выживании рыбацкого городка на берегу высыхающего моря. Вы — новый старейшина Октоша, и у вас десять лет (40 сезонов), чтобы решить, что спасать: хлопок, поля или само море. Сажайте тростник и саксаул, копайте каналы, рискните построить Большую дамбу. 12 видов построек и действий, 37 карточек событий, 7 концовок. Работает в браузере на компьютере и телефоне.
+
 ## Story teaser
 
 > The Kok Sea leaves Oqtosh a little more each season, tipping boats onto their sides and putting salt on the wind.
 > As the town's new elder you have ten years to decide what to save: the cotton that keeps the district happy,
 > the fields that feed your people, or the water itself. Plant reeds and saxaul, dig canals, gamble on the Great Dike —
 > or watch the town follow the sea away.
+
+<p align="center"><img src="docs/screenshots/title.png" alt="Last Shore title screen: a pixel-art sunset over the sea" width="720"></p>
 
 Your advisors: **Ermek-ota**, an old fisherman; **Dilnoza**, a young hydro-engineer back from the capital;
 **Rais Tolib**, the district official with the red stamp; **Doctor Saida**, who runs the clinic; and **Timur**, who speaks for the young.
@@ -59,6 +71,7 @@ endings and the dangers that end the game early.
 ## Install and run
 
 ```bash
+git clone https://github.com/Viltrumlik/last-shore.git
 cd last-shore
 npm install
 npm run dev
@@ -157,6 +170,13 @@ last-shore/
 ```
 
 Design document: [docs/GDD.md](docs/GDD.md) (section 9 lists the exact formulas used by the code).
+
+## More games by Viltrumlik
+
+- [Karvonboshi](https://github.com/Viltrumlik/karvon-bot): Silk Road trading roguelite you play in a Telegram chat
+- [Night Express](https://github.com/Viltrumlik/night-express): text-adventure mystery on an overnight train (terminal)
+- [Dispatch 112](https://github.com/Viltrumlik/dispatch-112): real-time emergency-dispatch sim (terminal)
+- [Zero to Mars](https://github.com/Viltrumlik/zero-to-mars): 3D founder life-sim Telegram WebApp
 
 ## License
 
